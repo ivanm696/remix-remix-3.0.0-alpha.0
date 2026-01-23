@@ -1,0 +1,10 @@
+{
+  "deno.enablePaths": ["./packages/multipart-parser/examples/deno"],
+  "nodejs-testing.extensions": [
+    {
+      "extensions": ["ts", "tsx"],
+      "parameters": ["--import", "tsx"]
+    }
+  ],
+  "typescript.tsdk": "./node_modules/typescript/lib"
+}
