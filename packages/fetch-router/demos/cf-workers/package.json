@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/node": "catalog:",
     "@typescript/native-preview": "catalog:",
-    "wrangler": "^4.50.0"
+    "wrangler": "^4.59.1"
   },
   "scripts": {
     "deploy": "wrangler deploy",
